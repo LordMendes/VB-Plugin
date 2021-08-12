@@ -23,7 +23,6 @@ fix(input): fixed input mask
 
 ## Folder Structure (general) ##
 
-===
     README.md - You are here!
     \lib
       \api (api requests related code)

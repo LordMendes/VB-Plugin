@@ -6,7 +6,6 @@ import {PAGE_NAVIGATION_SCREENS} from '~/sample/navigation/screen-definitions';
 interface Props {
   navigation: {
     navigate: Function;
-    goBack: Function;
   };
 }
 

@@ -1,9 +1,10 @@
-/// <reference types="react" />
+import React from 'react';
+import { ApplicationContextType } from '@vizir-banking/banking-app-core/dist/contexts/application-context';
 interface Props {
+    applicationContext: ApplicationContextType;
     navigation: {
-        navigate: Function;
         goBack: Function;
     };
 }
-export declare const Page2: ({ navigation }: Props) => JSX.Element;
+export declare const Page2: React.ComponentType<React.PropsWithChildren<Props>>;
 export {};
